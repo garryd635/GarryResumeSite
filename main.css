@@ -1,0 +1,61 @@
+
+.nav {
+	height: 300px;
+	background-color: #60E866
+
+}
+.nav h1{
+	font-family: 'Shift', sans-serif;
+	font-size: 80px;
+	padding-bottom: 40px;
+}
+.nav h5{
+	font-family: 'Shift', sans-serif;
+	font-size: 20;
+	text-align: right;
+}
+
+.nav a{
+	color:#5a5a5a;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	position: relative;
+	top: 25px;
+	padding: 14px 10px;
+}
+.nav li{
+	display: inline;
+}
+
+.description {
+	padding-bottom: 100px;
+	border-style: solid;
+	border-color: #E8E6D5;
+	border-width: 50px;
+	background-color: #E3E8B3;
+}
+
+.key-skills {
+	padding-bottom: 100px;
+	border-style: solid;
+	border-color: #E8E6D5;
+	border-width: 50px;
+	background-color: #E3E8B3;
+}
+
+.education {
+	padding-bottom: 100px;
+	border-style: solid;
+	border-color: #E8E6D5;
+	border-width: 50px;
+	background-color: #E3E8B3;
+}
+
+.employment-history{
+	padding-bottom: 100px;
+	border-style: solid;
+	border-color: #E8E6D5;
+	border-width: 50px;
+	background-color: #E3E8B3;
+}
