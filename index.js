@@ -8,21 +8,21 @@ $(document).ready(function(){
 
 	$('.glyphicon-menu-left').click(function(){
 		console.log(sections[pointer] + " " + pointer)
-		$('.'+sections[pointer]).fadeOut();
+		$('.'+sections[pointer]).css("display","none");
 		if(pointer == 0){
 			pointer = 4;
 		}
 		pointer--;
-		$('.' + sections[pointer]).toggle('slide');
+		$('.' + sections[pointer]).fadeIn();
 		
 	})
 
 	$('.glyphicon-menu-right').click(function(){
-		$('.'+sections[pointer]).fadeOut();
+		$('.'+sections[pointer]).css("display","none");
 		if(pointer == 3)
 			pointer = -1;
 		pointer++;
-		$('.' + sections[pointer]).toggle('slide');	
+		$('.' + sections[pointer]).fadeIn();	
 	})
 })
 
