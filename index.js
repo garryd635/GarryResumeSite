@@ -7,14 +7,12 @@ $(document).ready(function(){
 	$('.employment-history').css("display","none");
 
 	$('.glyphicon-menu-left').click(function(){
-		console.log(sections[pointer] + " " + pointer)
 		$('.'+sections[pointer]).css("display","none");
 		if(pointer == 0){
 			pointer = 4;
 		}
 		pointer--;
-		$('.' + sections[pointer]).fadeIn();
-		
+		$('.' + sections[pointer]).fadeIn();	
 	})
 
 	$('.glyphicon-menu-right').click(function(){
@@ -23,6 +21,30 @@ $(document).ready(function(){
 			pointer = -1;
 		pointer++;
 		$('.' + sections[pointer]).fadeIn();	
+	})
+
+	$('#desc').click(function(){
+		$('.'+sections[pointer]).css("display","none");
+		pointer = 0;
+		$('.' + sections[pointer]).fadeIn();
+	})
+
+	$('#key').click(function(){
+		$('.'+sections[pointer]).css("display","none");
+		pointer = 1;
+		$('.' + sections[pointer]).fadeIn();
+	})
+
+	$('#edu').click(function(){
+		$('.'+sections[pointer]).css("display","none");
+		pointer = 2;
+		$('.' + sections[pointer]).fadeIn();
+	})
+
+	$('#employ').click(function(){
+		$('.'+sections[pointer]).css("display","none");
+		pointer = 3;
+		$('.' + sections[pointer]).fadeIn();
 	})
 })
 
