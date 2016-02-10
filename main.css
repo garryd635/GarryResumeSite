@@ -19,7 +19,7 @@
 
 .nav .nav-a{
 	color:#000000;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bold;
 	text-align: left;
 	position: relative;
@@ -36,7 +36,6 @@
 .description {
 	padding-bottom: 100px;
 	border-style: solid;
-	border-color: #AF8309;
 	border-width: 50px;
 	background-color: #FCC940;
 	font-size: 15px;
@@ -45,7 +44,6 @@
 .key-skills {
 	padding-bottom: 100px;
 	border-style: solid;
-	border-color: #AF8309;
 	border-width: 50px;
 	background-color: #FCC940;
 	font-size: 15px;
@@ -54,7 +52,6 @@
 .education {
 	padding-bottom: 100px;
 	border-style: solid;
-	border-color: #AF8309;
 	border-width: 50px;
 	background-color: #FCC940;
 	font-size: 15px;
@@ -63,7 +60,6 @@
 .employment-history{
 	padding-bottom: 100px;
 	border-style: solid;
-	border-color: #AF8309;
 	border-width: 50px;
 	background-color: #FCC940;
 	font-size: 15px;
