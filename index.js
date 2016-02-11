@@ -2,9 +2,16 @@ var sections = ["description","key-skills","education","employment-history"]
 var pointer = 0;
 
 $(document).ready(function(){
+	$('.nav').css('display','none');
+	$('.buttons').css('display','none');
+	$('.description').css('display','none');
 	$('.key-skills').css("display","none");
 	$('.education').css("display","none");
 	$('.employment-history').css("display","none");
+
+	$('.nav').fadeIn('slow');
+	$('.buttons').delay(1200).fadeIn('slow');
+	$('.description').delay(1800).fadeIn('slow')
 
 	$('.glyphicon-menu-left').click(function(){
 		$('.'+sections[pointer]).css("display","none");
